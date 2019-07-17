@@ -7,7 +7,7 @@ const Star = props => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="60px">
       <defs>
-        <linearGradient id={id} x1="0" y1="1" x2="0" y2="0">
+        <linearGradient id={id} x1="0" y1="0" x2="100%" y2="0">
           <stop id="stop1" offset={startValue} stopColor="#FFD700" />
           <stop id="stop2" offset={startValue} stopColor="transparent" />
           <stop id="stop3" offset="100%" stopColor="transparent" />
